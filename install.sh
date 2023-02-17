@@ -1,0 +1,16 @@
+#!/bin/bash
+
+pip install "pillow>=7.0.0 "
+pip install "numpy>=1.18.1 " 
+pip install "opencv-python>=4.1.2 " 
+pip install "torch>=1.9.0 " 
+pip install "--extra-index-url " 
+pip install "https://download.pytorch.org/whl/cu102 " 
+pip install "torchvision>=0.10.0 " 
+pip install "--extra-index-url " 
+pip install "https://download.pytorch.org/whl/cu102 " 
+pip install "pytest==7.1.3 " 
+pip install "tqdm==4.64.1 " 
+pip install "scipy>=1.7.3 " 
+pip install "matplotlib>=3.4.3 " 
+pip install "mock==4.0.3"
